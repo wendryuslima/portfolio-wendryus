@@ -8,10 +8,18 @@ const Header = () => {
         <h1 className="font-semibold text-xl">Wendryus</h1>
 
         <div className="flex gap-4 text-zinc-400">
-          <a className="header-link">Sobre</a>
-          <a className="header-link">Serviços</a>
-          <a className="header-link">Tecs</a>
-          <a className="header-link">Projetos</a>
+          <a className="header-link" href="#about">
+            Sobre
+          </a>
+          <a className="header-link" href="#services">
+            Serviços
+          </a>
+          <a className="header-link" href="#skills">
+            Tecs
+          </a>
+          <a className="header-link" href="#projects">
+            Projetos
+          </a>
         </div>
 
         <Link
