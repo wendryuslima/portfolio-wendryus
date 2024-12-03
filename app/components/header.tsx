@@ -7,7 +7,7 @@ const Header = () => {
       <div className="w-full max-w-[1200px]  mx-auto px-4 pb-4  py-3 flex items-center justify-between">
         <h1 className="font-semibold text-xl">Wendryus</h1>
 
-        <div className="flex gap-4 text-zinc-400">
+        <div className=" md:flex hidden gap-4 md:none  text-zinc-400">
           <a className="header-link" href="#about">
             Sobre
           </a>
@@ -24,7 +24,7 @@ const Header = () => {
 
         <Link
           target="_blank"
-          href="https://wa.me//5567999271900?text=Tenho%20interesse%20em%20desenvolver%20um%20projeto"
+          href="https://wa.me//5511994419339?text=Tenho%20interesse%20em%20desenvolver%20um%20projeto"
         >
           <Button variant="outline">Entre em contato</Button>
         </Link>

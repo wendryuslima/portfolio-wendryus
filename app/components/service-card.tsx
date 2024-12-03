@@ -35,7 +35,7 @@ const ServiceCard = ({
         </div>
 
         <div className="flex items-center gap-2">
-          <Link href="" target="_blank">
+          <Link href="https://wa.me/5511912345678" target="_blank">
             <Button variant="outline">Criar projeto</Button>
           </Link>
 
