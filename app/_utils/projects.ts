@@ -14,7 +14,7 @@ export const projects = [
     description: "Aplicação web de um sistema delivery",
     image:
       "https://i.pinimg.com/736x/3f/07/ef/3f07ef6824ecdb3eac16204963ba164c.jpg",
-    deploy: "https://barber-shop-theta-plum.vercel.app/",
+    deploy: "https://fsw-foods-psi.vercel.app/",
     github: "https://github.com/wendryuslima/FSW-FOODS",
   },
 
@@ -23,7 +23,7 @@ export const projects = [
     description: "Aplicação web de um e-comerce",
     image:
       "https://i.pinimg.com/736x/39/13/9d/39139d088994639fae8202c91ecc6bc5.jpg",
-    deploy: "https://barber-shop-theta-plum.vercel.app/",
+    deploy: "https://e-commerce-sigma-smoky.vercel.app/",
     github: "https://github.com/wendryuslima/FSW-FOODS",
   },
 ];
