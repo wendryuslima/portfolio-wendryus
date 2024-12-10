@@ -4,8 +4,7 @@ export const projects = [
     description: "um sistema  de serviços para barbearias!",
     image:
       "https://i.pinimg.com/736x/64/20/a5/6420a58b24e5195be8604e84111bfa64.jpg",
-    deploy:
-      "https://i.pinimg.com/736x/64/20/a5/6420a58b24e5195be8604e84111bfa64.jpg",
+    deploy: "https://barber-shop-theta-plum.vercel.app/",
     github: "https://github.com/wendryuslima/barber-shop",
   },
 
