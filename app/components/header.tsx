@@ -2,6 +2,8 @@ import Link from "next/link";
 import { Button } from "./ui/button";
 
 const Header = () => {
+
+  
   return (
     <div className="w-full bg-zinc-950 border-zinc-800 border-b z-10 fixed top-0 left-0">
       <div className="w-full max-w-[1200px]  mx-auto px-4 pb-4  py-3 flex items-center justify-between">
