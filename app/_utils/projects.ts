@@ -25,4 +25,13 @@ export const projects = [
     deploy: "https://e-commerce-sigma-smoky.vercel.app/",
     github: "https://github.com/wendryuslima/FSW-FOODS",
   },
+
+  {
+    name: "FINANCE AI",
+    description: "Um sistema de controle financeiro com IA",
+    image:
+      "https://i.pinimg.com/736x/d3/c3/d6/d3c3d6df686aafdf214ce8b1520c43e0.jpg",
+    deploy: "https://finance-wl.vercel.app/?month=08",
+    github: "https://github.com/wendryuslima/finance-ai",
+  },
 ];
