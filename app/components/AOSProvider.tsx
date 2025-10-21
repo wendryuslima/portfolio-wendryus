@@ -10,13 +10,7 @@ interface AOSProviderProps {
 
 const AOSProvider = ({ children }: AOSProviderProps) => {
   useEffect(() => {
-    AOS.init({
-      duration: 800,
-      easing: "ease-in-out",
-      once: true,
-      offset: 100,
-      disable: false,
-    });
+    AOS.init();
   }, []);
 
   return <>{children}</>;

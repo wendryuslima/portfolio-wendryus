@@ -1,15 +1,9 @@
 "use client";
 
-import Aos from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
 import { projects } from "../_utils/projects";
 import Card from "./card";
 
 const Projects = () => {
-  useEffect(() => {
-    Aos.init();
-  });
   return (
     <section id="projects" className="space-y-6">
       <div

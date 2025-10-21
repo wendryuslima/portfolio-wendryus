@@ -40,8 +40,12 @@
   * {
     @apply border-border antialiased scroll-smooth;
   }
+  html {
+    overflow-x: hidden;
+  }
   body {
     @apply bg-background text-foreground text-base overflow-x-hidden;
+    max-width: 100vw;
   }
 }
 
@@ -72,4 +76,14 @@ h2 {
 
 section {
   @apply mb-32 w-full bg-zinc-950 px-4 py-10 md:py-24;
+}
+
+[data-aos] {
+  overflow: hidden;
+}
+
+/* Garantir que elementos animados não excedam viewport */
+.aos-init {
+  max-width: 100vw;
+  box-sizing: border-box;
 }

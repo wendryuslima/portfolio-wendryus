@@ -1,14 +1,6 @@
 "use client";
 
-import Aos from "aos";
-import "aos/dist/aos.css";
-import { useEffect } from "react";
-
 const Stats = () => {
-  useEffect(() => {
-    Aos.init();
-  });
-
   const stats = [
     {
       number: "3+",
