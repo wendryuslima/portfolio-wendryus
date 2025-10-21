@@ -18,14 +18,14 @@ interface CardProps {
 const Card = ({ project }: CardProps) => {
   return (
     <div className="border border-zinc-900 rounded-lg overflow-hidden w-full">
-      <div className="relative w-full h-[250px] overflow-hidden">
+      <div className="relative w-full h-[200px] md:h-[250px] overflow-hidden">
         <Image
           className="object-cover w-full h-full hover:scale-105 transition-transform duration-300"
           src={project.image}
           alt={`Screenshot do projeto ${project.name}`}
-          width={400}
-          height={250}
-          quality={95}
+          fill
+          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+          quality={90}
           priority={false}
         />
       </div>
