@@ -1,13 +1,6 @@
 "use client";
 
-import { useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
-
 const About = () => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   return (
     <section id="about">
       <div
@@ -16,7 +9,7 @@ const About = () => {
       >
         <div className="gap-3 max-w-[900px]">
           <h2 className="mb-3 items-center text-center">Sobre mim</h2>
-          <p  
+          <p
             data-aos="fade-left"
             className="max-w-[900px] text-center text-zinc-500 md:text-xl "
           >

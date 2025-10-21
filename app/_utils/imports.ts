@@ -13,4 +13,4 @@ export { default as LogoTailwind } from "../../public/tecs/logoTailwind.svg";
 export { default as LogoTs } from "../../public/tecs/logoTs.svg";
 export { default as LogoMongoDB } from "../../public/tecs/mongodb.svg";
 export { default as LogoPrisma } from "../../public/tecs/prisma (2).png";
-
+export { default as LogoNodejs } from "../../public/tecs/nodejs-icon.svg";

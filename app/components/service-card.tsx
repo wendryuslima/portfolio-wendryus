@@ -1,9 +1,7 @@
 "use client";
 
 import Image, { StaticImageData } from "next/image";
-import { ReactNode, useEffect } from "react";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import { ReactNode } from "react";
 import Link from "next/link";
 import { Button } from "./ui/button";
 
@@ -19,9 +17,6 @@ const ServiceCard = ({
   description,
   reverse,
 }: ServiceCardProps) => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   return (
     <div
       className={`flex items-center gap-8 flex-col-reverse ${

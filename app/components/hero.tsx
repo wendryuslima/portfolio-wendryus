@@ -1,15 +1,9 @@
 "use client";
 
-import Aos from "aos";
-import "aos/dist/aos.css";
 import { Github, Linkedin } from "lucide-react";
 import Link from "next/link";
-import { useEffect } from "react";
 
 const Hero = () => {
-  useEffect(() => {
-    Aos.init();
-  }, []);
   return (
     <div
       data-aos="fade-up"
@@ -20,8 +14,8 @@ const Hero = () => {
           Conheça meu portfólio
         </h1>
         <p className="max-w-[600px] mx-auto text-zinc-500 md:text-xl">
-          Sou um desenvolvedor Fron-End, com uma paixão em construir boas
-          interfaces.
+          Sou um desenvolvedor Full Stack, com uma paixão em construir boas
+          interfaces e sistemas.
         </p>
         <div className="flex justify-center  text-zinc-500 items-center gap-2 mt-4">
           <Link target="_blank" href="https://github.com/wendryuslima">

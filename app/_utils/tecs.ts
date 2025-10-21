@@ -43,6 +43,15 @@ export const techs = [
   {
     id: uuid(),
     type: "image",
+    name: "NodeJs",
+    width: 50,
+    height: 50,
+    delay: 100,
+    image: imports.LogoNodejs,
+  },
+  {
+    id: uuid(),
+    type: "image",
     name: "Typescript",
     width: 50,
     height: 50,

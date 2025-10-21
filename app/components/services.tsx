@@ -1,18 +1,11 @@
 "use client";
 
-import AOS from "aos";
-import "aos/dist/aos.css";
-
 import ServiceCard from "./service-card";
 import Webdesign from "../../public/services/ilustration4.png";
 import Programing from "../../public/services/ilustration1.png";
 import UiUx from "../../public/services/ilustration3.png";
-import { useEffect } from "react";
 
 const Services = () => {
-  useEffect(() => {
-    AOS.init();
-  }, []);
   return (
     <section id="services" className="space-y-6">
       <div data-aos="fade-up" className="space-y-4  mb-2  md:text-center">
