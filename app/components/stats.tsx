@@ -24,10 +24,12 @@ const Stats = () => {
     <section id="stats" className="py-16">
       <div className="container mx-auto px-4">
         <div
-          className="justify-center flex flex-col gap-4 items-center flex flex-col mb-12"
+          className="justify-center flex flex-col gap-4 items-center mb-12"
           data-aos="fade-up"
         >
-          <h2 className="text-3xl text-center font-bold">Minha Jornada em Números</h2>
+          <h2 className="text-3xl text-center font-bold">
+            Minha Jornada em Números
+          </h2>
           <p className="text-zinc-500 text-xl max-w-[600px] text-center">
             Resultados que comprovam minha dedicação e resultado em projetos
           </p>
