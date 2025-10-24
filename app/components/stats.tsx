@@ -22,20 +22,18 @@ const Stats = () => {
 
   return (
     <section id="stats" className="py-16">
-      <div className="container mx-auto px-4">
+      <div className="px-4">
         <div
-          className="justify-center flex flex-col gap-4 items-center mb-12"
+          className=" flex flex-col gap-4 lg:items-center items-left mb-12"
           data-aos="fade-up"
         >
-          <h2 className="text-3xl text-center font-bold">
-            Minha Jornada em Números
-          </h2>
-          <p className="text-zinc-500 text-xl max-w-[600px] text-center">
+          <h2 className=" font-bold">Minha Jornada em Números</h2>
+          <p className="text-zinc-500 text-xl  ">
             Resultados que comprovam minha dedicação e resultado em projetos
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
           {stats.map((stat, index) => (
             <div
               key={index}

@@ -7,11 +7,11 @@ const Projects = () => {
   return (
     <section id="projects" className="space-y-6">
       <div
-        className="justify-center gap-4 items-center flex flex-col"
+        className="justify-center gap-4 lg:items-center flex flex-col"
         data-aos="fade-up"
       >
         <h2>Meus projetos</h2>
-        <p className="text-zinc-500 text-xl max-w-[600px] text-center items-center">
+        <p className="text-zinc-500 text-xl max-w-[600px] lg:text-center items-center">
           Conheça os meus principais projetos desenvolvidos durante a minha
           carreira.
         </p>
