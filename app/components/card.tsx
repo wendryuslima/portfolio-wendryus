@@ -20,7 +20,7 @@ const Card = ({ project }: CardProps) => {
     <div className="border border-zinc-900 rounded-lg overflow-hidden w-full">
       <div className="relative w-full h-[200px] md:h-[250px] overflow-hidden">
         <Image
-          className="object-cover w-full h-full hover:scale-105 transition-transform duration-300"
+          className="hover:scale-105 transition-transform duration-300"
           src={project.image}
           alt={`Screenshot do projeto ${project.name}`}
           fill

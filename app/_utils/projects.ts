@@ -8,19 +8,26 @@ export const projects = [
   },
 
   {
+    name: "Detetive Ariana",
+    description: "Aplicação web de um site para investigação",
+    image: "/projects/capa-detetivea.png",
+    deploy: "https://detetivelima.vercel.app/",
+    github: "https://github.com/wendryuslima/detetivelima",
+  },
+
+  {
+    name: "Mineira Salinense",
+    description: "Aplicação web de uma cachaçaria mineira",
+    image: "/projects/capa-ms.png",
+    deploy: "https://mineira-salinense.vercel.app/",
+    github: "https://github.com/wendryuslima/mineira-salinense",
+  },
+
+  {
     name: "FSW FOODS",
     description: "Aplicação web de um sistema delivery",
     image: "/projects/fsw-foods.project.png",
     deploy: "https://fsw-foods-psi.vercel.app/",
-    github: "https://github.com/wendryuslima/FSW-FOODS",
-  },
-
-  {
-    name: "CLUB CLOTING",
-    description: "Aplicação web de um e-comerce",
-    image:
-      "https://i.pinimg.com/736x/39/13/9d/39139d088994639fae8202c91ecc6bc5.jpg",
-    deploy: "https://e-commerce-sigma-smoky.vercel.app/",
     github: "https://github.com/wendryuslima/FSW-FOODS",
   },
 
