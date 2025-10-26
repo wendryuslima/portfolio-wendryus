@@ -88,23 +88,4 @@ section {
   box-sizing: border-box;
 }
 
-/* Otimização inteligente para mobile */
-@media (max-width: 768px) {
-  /* Melhora performance do scroll */
-  html {
-    scroll-behavior: smooth;
-    -webkit-overflow-scrolling: touch;
-  }
 
-  /* Otimização específica para elementos AOS em mobile */
-  [data-aos] {
-    will-change: transform, opacity;
-    transform: translate3d(0, 0, 0);
-  }
-
-  /* Remove otimização após animação para liberar recursos */
-  .aos-animate {
-    will-change: auto;
-    transform: none;
-  }
-}
