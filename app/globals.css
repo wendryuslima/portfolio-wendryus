@@ -87,3 +87,10 @@ section {
   max-width: 100vw;
   box-sizing: border-box;
 }
+
+/* Otimizações sutis para performance em mobile */
+@media (max-width: 768px) {
+  [data-aos] {
+    transform: translateZ(0);
+  }
+}
