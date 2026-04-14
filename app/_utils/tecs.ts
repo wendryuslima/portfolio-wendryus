@@ -39,7 +39,7 @@ export const techs = [
     height: 50,
     delay: 100,
     image: imports.LogoJavascript,
-  },
+},
   {
     id: uuid(),
     type: "image",
