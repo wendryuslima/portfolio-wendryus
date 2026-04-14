@@ -14,3 +14,7 @@ export { default as LogoTs } from "../../public/tecs/logoTs.svg";
 export { default as LogoMongoDB } from "../../public/tecs/mongodb.svg";
 export { default as LogoPrisma } from "../../public/tecs/prisma (2).png";
 export { default as LogoNodejs } from "../../public/tecs/nodejs-icon.svg";
+export { default as LogoBunjs } from "../../public/tecs/logo-bun.svg";
+export { default as LogoFastify } from "../../public/tecs/fastify-white.svg";
+export { default as LogoPostgres } from "../../public/tecs/postgresql-icon.svg";
+export { default as LogoSvelte } from "../../public/tecs/svelte-icon.webp";

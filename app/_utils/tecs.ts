@@ -70,6 +70,15 @@ export const techs = [
   {
     id: uuid(),
     type: "image",
+    name: "Svelte",
+    width: 50,
+    height: 50,
+    delay: 100,
+    image: imports.LogoSvelte,
+  },
+  {
+    id: uuid(),
+    type: "image",
     name: "NextJs",
     width: 50,
     height: 50,
@@ -94,6 +103,15 @@ export const techs = [
     height: 50,
     delay: 100,
     image: imports.LogoMongoDB,
+  },
+  {
+    id: uuid(),
+    type: "image",
+    name: "PostgreSQL",
+    width: 50,
+    height: 50,
+    delay: 100,
+    image: imports.LogoPostgres,
   },
 
   {
@@ -142,4 +160,14 @@ export const techs = [
     delay: 100,
     image: imports.LogoFigma,
   },
+  {
+    id: uuid(),
+    type: "image",
+    name: "Bun",
+    width: 50,
+    height: 50,
+    delay: 100,
+    image: imports.LogoBunjs,
+  },
+  ,
 ];
