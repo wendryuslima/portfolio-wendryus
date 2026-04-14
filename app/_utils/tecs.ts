@@ -169,5 +169,4 @@ export const techs = [
     delay: 100,
     image: imports.LogoBunjs,
   },
-  ,
 ];
