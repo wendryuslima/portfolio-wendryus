@@ -39,7 +39,7 @@ export const techs = [
     height: 50,
     delay: 100,
     image: imports.LogoJavascript,
-},
+  },
   {
     id: uuid(),
     type: "image",
@@ -48,6 +48,15 @@ export const techs = [
     height: 50,
     delay: 100,
     image: imports.LogoNodejs,
+  },
+  {
+    id: uuid(),
+    type: "image",
+    name: "Go",
+    width: 50,
+    height: 50,
+    delay: 100,
+    image: imports.LogoGo,
   },
   {
     id: uuid(),

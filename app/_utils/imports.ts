@@ -18,3 +18,4 @@ export { default as LogoBunjs } from "../../public/tecs/logo-bun.svg";
 export { default as LogoFastify } from "../../public/tecs/fastify-white.svg";
 export { default as LogoPostgres } from "../../public/tecs/postgresql-icon.svg";
 export { default as LogoSvelte } from "../../public/tecs/svelte-icon.webp";
+export { default as LogoGo } from "../../public/tecs/go-svgrepo-com.svg";
